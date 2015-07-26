@@ -3,6 +3,7 @@
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="<?php echo assets_url(); ?>js/bootstrap.min.js"></script>
 <script src="<?php echo assets_url(); ?>/apps/metisMenu/dist/metisMenu.min.js"></script>
+<script src="<?php echo assets_url(); ?>apps/BootstrapFormHelpers/dist/js/bootstrap-formhelpers.min.js"></script>
 <script src="<?php echo assets_url(); ?>/js/admin.js"></script>
 <?php
 

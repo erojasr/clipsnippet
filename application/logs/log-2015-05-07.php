@@ -4910,3 +4910,746 @@ DEBUG - 2015-05-07 20:15:46 --> File loaded: /var/www/public/application/views/l
 DEBUG - 2015-05-07 20:15:46 --> File loaded: /var/www/public/application/views/templates/footer.php
 DEBUG - 2015-05-07 20:15:46 --> Final output sent to browser
 DEBUG - 2015-05-07 20:15:46 --> Total execution time: 0.2619
+DEBUG - 2015-05-07 22:17:13 --> Config Class Initialized
+DEBUG - 2015-05-07 22:17:13 --> Hooks Class Initialized
+DEBUG - 2015-05-07 22:17:13 --> UTF-8 Support Enabled
+DEBUG - 2015-05-07 22:17:13 --> Utf8 Class Initialized
+DEBUG - 2015-05-07 22:17:13 --> URI Class Initialized
+DEBUG - 2015-05-07 22:17:13 --> No URI present. Default controller set.
+DEBUG - 2015-05-07 22:17:13 --> Router Class Initialized
+DEBUG - 2015-05-07 22:17:13 --> Output Class Initialized
+DEBUG - 2015-05-07 22:17:13 --> Security Class Initialized
+DEBUG - 2015-05-07 22:17:13 --> Input Class Initialized
+DEBUG - 2015-05-07 22:17:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-05-07 22:17:13 --> Language Class Initialized
+DEBUG - 2015-05-07 22:17:13 --> Loader Class Initialized
+DEBUG - 2015-05-07 22:17:13 --> Helper loaded: url_helper
+DEBUG - 2015-05-07 22:17:13 --> Helper loaded: utils_helper
+DEBUG - 2015-05-07 22:17:13 --> CI_Session Class Initialized
+DEBUG - 2015-05-07 22:17:13 --> A session cookie was not found.
+DEBUG - 2015-05-07 22:17:13 --> Session: Creating new session (0f836e0d7837d0e4160a1de2c61b62a4)
+DEBUG - 2015-05-07 22:17:13 --> CI_Session routines successfully run
+DEBUG - 2015-05-07 22:17:13 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 22:17:13 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 22:17:13 --> Controller Class Initialized
+DEBUG - 2015-05-07 22:17:13 --> Helper loaded: language_helper
+DEBUG - 2015-05-07 22:17:13 --> Language file loaded: language/spanish/user_interface_lang.php
+DEBUG - 2015-05-07 22:17:13 --> File loaded: /var/www/public/application/views/templates/header.php
+DEBUG - 2015-05-07 22:17:13 --> File loaded: /var/www/public/application/views/index.php
+DEBUG - 2015-05-07 22:17:13 --> File loaded: /var/www/public/application/views/templates/footer.php
+DEBUG - 2015-05-07 22:17:13 --> Final output sent to browser
+DEBUG - 2015-05-07 22:17:13 --> Total execution time: 0.4116
+DEBUG - 2015-05-07 22:17:14 --> Config Class Initialized
+DEBUG - 2015-05-07 22:17:14 --> Hooks Class Initialized
+DEBUG - 2015-05-07 22:17:14 --> UTF-8 Support Enabled
+DEBUG - 2015-05-07 22:17:14 --> Utf8 Class Initialized
+DEBUG - 2015-05-07 22:17:14 --> URI Class Initialized
+DEBUG - 2015-05-07 22:17:14 --> Router Class Initialized
+DEBUG - 2015-05-07 22:17:14 --> Output Class Initialized
+DEBUG - 2015-05-07 22:17:14 --> Security Class Initialized
+DEBUG - 2015-05-07 22:17:14 --> Input Class Initialized
+DEBUG - 2015-05-07 22:17:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-05-07 22:17:14 --> Language Class Initialized
+ERROR - 2015-05-07 22:17:14 --> 404 Page Not Found: Faviconico/index
+DEBUG - 2015-05-07 22:17:18 --> Config Class Initialized
+DEBUG - 2015-05-07 22:17:18 --> Hooks Class Initialized
+DEBUG - 2015-05-07 22:17:18 --> UTF-8 Support Enabled
+DEBUG - 2015-05-07 22:17:18 --> Utf8 Class Initialized
+DEBUG - 2015-05-07 22:17:18 --> URI Class Initialized
+DEBUG - 2015-05-07 22:17:18 --> Router Class Initialized
+DEBUG - 2015-05-07 22:17:18 --> Output Class Initialized
+DEBUG - 2015-05-07 22:17:18 --> Security Class Initialized
+DEBUG - 2015-05-07 22:17:18 --> Input Class Initialized
+DEBUG - 2015-05-07 22:17:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-05-07 22:17:18 --> Language Class Initialized
+DEBUG - 2015-05-07 22:17:18 --> Loader Class Initialized
+DEBUG - 2015-05-07 22:17:18 --> Helper loaded: url_helper
+DEBUG - 2015-05-07 22:17:18 --> Helper loaded: utils_helper
+DEBUG - 2015-05-07 22:17:18 --> CI_Session Class Initialized
+DEBUG - 2015-05-07 22:17:18 --> CI_Session routines successfully run
+DEBUG - 2015-05-07 22:17:18 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 22:17:18 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 22:17:18 --> Controller Class Initialized
+DEBUG - 2015-05-07 22:17:18 --> Model Class Initialized
+DEBUG - 2015-05-07 22:17:18 --> Model Class Initialized
+DEBUG - 2015-05-07 22:17:18 --> Helper loaded: captcha_helper
+DEBUG - 2015-05-07 22:17:18 --> Helper loaded: form_helper
+DEBUG - 2015-05-07 22:17:18 --> Form Validation Class Initialized
+DEBUG - 2015-05-07 22:17:18 --> Helper loaded: language_helper
+DEBUG - 2015-05-07 22:17:18 --> Language file loaded: language/spanish/user_interface_lang.php
+DEBUG - 2015-05-07 22:17:18 --> File loaded: /var/www/public/application/views/templates/header.php
+DEBUG - 2015-05-07 22:17:18 --> File loaded: /var/www/public/application/views/login.php
+DEBUG - 2015-05-07 22:17:18 --> File loaded: /var/www/public/application/views/templates/footer.php
+DEBUG - 2015-05-07 22:17:18 --> Final output sent to browser
+DEBUG - 2015-05-07 22:17:18 --> Total execution time: 0.1866
+DEBUG - 2015-05-07 22:24:32 --> Config Class Initialized
+DEBUG - 2015-05-07 22:24:32 --> Hooks Class Initialized
+DEBUG - 2015-05-07 22:24:32 --> UTF-8 Support Enabled
+DEBUG - 2015-05-07 22:24:32 --> Utf8 Class Initialized
+DEBUG - 2015-05-07 22:24:32 --> URI Class Initialized
+DEBUG - 2015-05-07 22:24:32 --> Router Class Initialized
+DEBUG - 2015-05-07 22:24:32 --> Output Class Initialized
+DEBUG - 2015-05-07 22:24:32 --> Security Class Initialized
+DEBUG - 2015-05-07 22:24:32 --> Input Class Initialized
+DEBUG - 2015-05-07 22:24:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-05-07 22:24:32 --> Language Class Initialized
+DEBUG - 2015-05-07 22:24:32 --> Loader Class Initialized
+DEBUG - 2015-05-07 22:24:32 --> Helper loaded: url_helper
+DEBUG - 2015-05-07 22:24:32 --> Helper loaded: utils_helper
+DEBUG - 2015-05-07 22:24:32 --> CI_Session Class Initialized
+DEBUG - 2015-05-07 22:24:32 --> A session cookie was not found.
+DEBUG - 2015-05-07 22:24:32 --> Session: Creating new session (6702ffee80caaa9fed1fd761d1357652)
+DEBUG - 2015-05-07 22:24:32 --> CI_Session routines successfully run
+DEBUG - 2015-05-07 22:24:32 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 22:24:32 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 22:24:32 --> Controller Class Initialized
+DEBUG - 2015-05-07 22:24:32 --> Model Class Initialized
+DEBUG - 2015-05-07 22:24:32 --> Model Class Initialized
+DEBUG - 2015-05-07 22:24:32 --> Helper loaded: captcha_helper
+DEBUG - 2015-05-07 22:24:32 --> Helper loaded: form_helper
+DEBUG - 2015-05-07 22:24:32 --> Form Validation Class Initialized
+DEBUG - 2015-05-07 22:24:32 --> Helper loaded: language_helper
+DEBUG - 2015-05-07 22:24:32 --> Language file loaded: language/spanish/user_interface_lang.php
+DEBUG - 2015-05-07 22:24:32 --> File loaded: /var/www/public/application/views/templates/header.php
+DEBUG - 2015-05-07 22:24:32 --> File loaded: /var/www/public/application/views/login.php
+DEBUG - 2015-05-07 22:24:32 --> File loaded: /var/www/public/application/views/templates/footer.php
+DEBUG - 2015-05-07 22:24:32 --> Final output sent to browser
+DEBUG - 2015-05-07 22:24:32 --> Total execution time: 0.1416
+DEBUG - 2015-05-07 22:24:35 --> Config Class Initialized
+DEBUG - 2015-05-07 22:24:35 --> Hooks Class Initialized
+DEBUG - 2015-05-07 22:24:35 --> UTF-8 Support Enabled
+DEBUG - 2015-05-07 22:24:35 --> Utf8 Class Initialized
+DEBUG - 2015-05-07 22:24:35 --> URI Class Initialized
+DEBUG - 2015-05-07 22:24:35 --> Router Class Initialized
+DEBUG - 2015-05-07 22:24:35 --> Output Class Initialized
+DEBUG - 2015-05-07 22:24:35 --> Security Class Initialized
+DEBUG - 2015-05-07 22:24:35 --> Input Class Initialized
+DEBUG - 2015-05-07 22:24:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-05-07 22:24:35 --> Language Class Initialized
+ERROR - 2015-05-07 22:24:35 --> 404 Page Not Found: Faviconico/index
+DEBUG - 2015-05-07 22:24:35 --> Config Class Initialized
+DEBUG - 2015-05-07 22:24:35 --> Hooks Class Initialized
+DEBUG - 2015-05-07 22:24:35 --> UTF-8 Support Enabled
+DEBUG - 2015-05-07 22:24:35 --> Utf8 Class Initialized
+DEBUG - 2015-05-07 22:24:35 --> URI Class Initialized
+DEBUG - 2015-05-07 22:24:35 --> Router Class Initialized
+DEBUG - 2015-05-07 22:24:35 --> Output Class Initialized
+DEBUG - 2015-05-07 22:24:35 --> Security Class Initialized
+DEBUG - 2015-05-07 22:24:35 --> Input Class Initialized
+DEBUG - 2015-05-07 22:24:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-05-07 22:24:35 --> Language Class Initialized
+ERROR - 2015-05-07 22:24:35 --> 404 Page Not Found: Faviconico/index
+DEBUG - 2015-05-07 22:26:17 --> Config Class Initialized
+DEBUG - 2015-05-07 22:26:17 --> Hooks Class Initialized
+DEBUG - 2015-05-07 22:26:17 --> UTF-8 Support Enabled
+DEBUG - 2015-05-07 22:26:17 --> Utf8 Class Initialized
+DEBUG - 2015-05-07 22:26:17 --> URI Class Initialized
+DEBUG - 2015-05-07 22:26:17 --> Router Class Initialized
+DEBUG - 2015-05-07 22:26:17 --> Output Class Initialized
+DEBUG - 2015-05-07 22:26:17 --> Security Class Initialized
+DEBUG - 2015-05-07 22:26:17 --> Input Class Initialized
+DEBUG - 2015-05-07 22:26:17 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-05-07 22:26:17 --> Language Class Initialized
+DEBUG - 2015-05-07 22:26:17 --> Loader Class Initialized
+DEBUG - 2015-05-07 22:26:17 --> Helper loaded: url_helper
+DEBUG - 2015-05-07 22:26:17 --> Helper loaded: utils_helper
+DEBUG - 2015-05-07 22:26:17 --> CI_Session Class Initialized
+DEBUG - 2015-05-07 22:26:17 --> CI_Session routines successfully run
+DEBUG - 2015-05-07 22:26:17 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 22:26:17 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 22:26:17 --> Controller Class Initialized
+DEBUG - 2015-05-07 22:26:17 --> Model Class Initialized
+DEBUG - 2015-05-07 22:26:17 --> Model Class Initialized
+DEBUG - 2015-05-07 22:26:17 --> Helper loaded: captcha_helper
+DEBUG - 2015-05-07 22:26:17 --> Helper loaded: form_helper
+DEBUG - 2015-05-07 22:26:17 --> Form Validation Class Initialized
+DEBUG - 2015-05-07 22:26:17 --> Helper loaded: language_helper
+DEBUG - 2015-05-07 22:26:17 --> Language file loaded: language/spanish/user_interface_lang.php
+DEBUG - 2015-05-07 22:26:17 --> File loaded: /var/www/public/application/views/templates/header.php
+DEBUG - 2015-05-07 22:26:17 --> File loaded: /var/www/public/application/views/login.php
+DEBUG - 2015-05-07 22:26:17 --> File loaded: /var/www/public/application/views/templates/footer.php
+DEBUG - 2015-05-07 22:26:17 --> Final output sent to browser
+DEBUG - 2015-05-07 22:26:17 --> Total execution time: 0.1319
+DEBUG - 2015-05-07 22:26:28 --> Config Class Initialized
+DEBUG - 2015-05-07 22:26:28 --> Hooks Class Initialized
+DEBUG - 2015-05-07 22:26:28 --> UTF-8 Support Enabled
+DEBUG - 2015-05-07 22:26:28 --> Utf8 Class Initialized
+DEBUG - 2015-05-07 22:26:28 --> URI Class Initialized
+DEBUG - 2015-05-07 22:26:28 --> Router Class Initialized
+DEBUG - 2015-05-07 22:26:28 --> Output Class Initialized
+DEBUG - 2015-05-07 22:26:28 --> Security Class Initialized
+DEBUG - 2015-05-07 22:26:28 --> Input Class Initialized
+DEBUG - 2015-05-07 22:26:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-05-07 22:26:28 --> Language Class Initialized
+DEBUG - 2015-05-07 22:26:28 --> Loader Class Initialized
+DEBUG - 2015-05-07 22:26:28 --> Helper loaded: url_helper
+DEBUG - 2015-05-07 22:26:28 --> Helper loaded: utils_helper
+DEBUG - 2015-05-07 22:26:28 --> CI_Session Class Initialized
+DEBUG - 2015-05-07 22:26:28 --> CI_Session routines successfully run
+DEBUG - 2015-05-07 22:26:28 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 22:26:28 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 22:26:28 --> Controller Class Initialized
+DEBUG - 2015-05-07 22:26:28 --> Helper loaded: language_helper
+DEBUG - 2015-05-07 22:26:28 --> Language file loaded: language/spanish/user_interface_lang.php
+DEBUG - 2015-05-07 22:26:28 --> Final output sent to browser
+DEBUG - 2015-05-07 22:26:28 --> Total execution time: 0.1157
+DEBUG - 2015-05-07 22:26:28 --> Config Class Initialized
+DEBUG - 2015-05-07 22:26:28 --> Hooks Class Initialized
+DEBUG - 2015-05-07 22:26:28 --> UTF-8 Support Enabled
+DEBUG - 2015-05-07 22:26:28 --> Utf8 Class Initialized
+DEBUG - 2015-05-07 22:26:28 --> URI Class Initialized
+DEBUG - 2015-05-07 22:26:28 --> Router Class Initialized
+DEBUG - 2015-05-07 22:26:28 --> Output Class Initialized
+DEBUG - 2015-05-07 22:26:28 --> Security Class Initialized
+DEBUG - 2015-05-07 22:26:28 --> Input Class Initialized
+DEBUG - 2015-05-07 22:26:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-05-07 22:26:28 --> Language Class Initialized
+DEBUG - 2015-05-07 22:26:28 --> Loader Class Initialized
+DEBUG - 2015-05-07 22:26:28 --> Helper loaded: url_helper
+DEBUG - 2015-05-07 22:26:28 --> Helper loaded: utils_helper
+DEBUG - 2015-05-07 22:26:28 --> CI_Session Class Initialized
+DEBUG - 2015-05-07 22:26:28 --> CI_Session routines successfully run
+DEBUG - 2015-05-07 22:26:28 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 22:26:28 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 22:26:28 --> Controller Class Initialized
+DEBUG - 2015-05-07 22:26:28 --> Model Class Initialized
+DEBUG - 2015-05-07 22:26:28 --> Model Class Initialized
+DEBUG - 2015-05-07 22:26:28 --> Helper loaded: captcha_helper
+DEBUG - 2015-05-07 22:26:28 --> Helper loaded: form_helper
+DEBUG - 2015-05-07 22:26:28 --> Form Validation Class Initialized
+DEBUG - 2015-05-07 22:26:28 --> Helper loaded: language_helper
+DEBUG - 2015-05-07 22:26:28 --> Language file loaded: language/english/user_interface_lang.php
+DEBUG - 2015-05-07 22:26:28 --> File loaded: /var/www/public/application/views/templates/header.php
+DEBUG - 2015-05-07 22:26:28 --> File loaded: /var/www/public/application/views/login.php
+DEBUG - 2015-05-07 22:26:28 --> File loaded: /var/www/public/application/views/templates/footer.php
+DEBUG - 2015-05-07 22:26:28 --> Final output sent to browser
+DEBUG - 2015-05-07 22:26:28 --> Total execution time: 0.1009
+DEBUG - 2015-05-07 22:47:52 --> Config Class Initialized
+DEBUG - 2015-05-07 22:47:52 --> Hooks Class Initialized
+DEBUG - 2015-05-07 22:47:52 --> UTF-8 Support Enabled
+DEBUG - 2015-05-07 22:47:52 --> Utf8 Class Initialized
+DEBUG - 2015-05-07 22:47:52 --> URI Class Initialized
+DEBUG - 2015-05-07 22:47:52 --> Router Class Initialized
+DEBUG - 2015-05-07 22:47:52 --> Output Class Initialized
+DEBUG - 2015-05-07 22:47:52 --> Security Class Initialized
+DEBUG - 2015-05-07 22:47:52 --> Input Class Initialized
+DEBUG - 2015-05-07 22:47:52 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-05-07 22:47:52 --> Language Class Initialized
+DEBUG - 2015-05-07 22:47:52 --> Loader Class Initialized
+DEBUG - 2015-05-07 22:47:52 --> Helper loaded: url_helper
+DEBUG - 2015-05-07 22:47:52 --> Helper loaded: utils_helper
+DEBUG - 2015-05-07 22:47:52 --> CI_Session Class Initialized
+DEBUG - 2015-05-07 22:47:52 --> CI_Session routines successfully run
+DEBUG - 2015-05-07 22:47:52 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 22:47:52 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 22:47:52 --> Controller Class Initialized
+DEBUG - 2015-05-07 22:47:52 --> Model Class Initialized
+DEBUG - 2015-05-07 22:47:52 --> Model Class Initialized
+DEBUG - 2015-05-07 22:47:52 --> Helper loaded: captcha_helper
+DEBUG - 2015-05-07 22:47:52 --> Helper loaded: form_helper
+DEBUG - 2015-05-07 22:47:52 --> Form Validation Class Initialized
+DEBUG - 2015-05-07 22:47:52 --> Helper loaded: language_helper
+DEBUG - 2015-05-07 22:47:52 --> Language file loaded: language/english/user_interface_lang.php
+DEBUG - 2015-05-07 22:47:52 --> Language file loaded: language/spanish/form_validation_lang.php
+DEBUG - 2015-05-07 22:47:52 --> XSS Filtering completed
+DEBUG - 2015-05-07 22:47:52 --> XSS Filtering completed
+DEBUG - 2015-05-07 22:47:52 --> Final output sent to browser
+DEBUG - 2015-05-07 22:47:52 --> Total execution time: 0.2647
+DEBUG - 2015-05-07 22:51:13 --> Config Class Initialized
+DEBUG - 2015-05-07 22:51:13 --> Hooks Class Initialized
+DEBUG - 2015-05-07 22:51:13 --> UTF-8 Support Enabled
+DEBUG - 2015-05-07 22:51:13 --> Utf8 Class Initialized
+DEBUG - 2015-05-07 22:51:13 --> URI Class Initialized
+DEBUG - 2015-05-07 22:51:13 --> Router Class Initialized
+DEBUG - 2015-05-07 22:51:13 --> Output Class Initialized
+DEBUG - 2015-05-07 22:51:13 --> Security Class Initialized
+DEBUG - 2015-05-07 22:51:13 --> Input Class Initialized
+DEBUG - 2015-05-07 22:51:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-05-07 22:51:13 --> Language Class Initialized
+DEBUG - 2015-05-07 22:51:13 --> Loader Class Initialized
+DEBUG - 2015-05-07 22:51:13 --> Helper loaded: url_helper
+DEBUG - 2015-05-07 22:51:13 --> Helper loaded: utils_helper
+DEBUG - 2015-05-07 22:51:13 --> CI_Session Class Initialized
+DEBUG - 2015-05-07 22:51:13 --> CI_Session routines successfully run
+DEBUG - 2015-05-07 22:51:13 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 22:51:13 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 22:51:13 --> Controller Class Initialized
+DEBUG - 2015-05-07 22:51:13 --> Model Class Initialized
+DEBUG - 2015-05-07 22:51:13 --> Model Class Initialized
+DEBUG - 2015-05-07 22:51:13 --> Helper loaded: captcha_helper
+DEBUG - 2015-05-07 22:51:13 --> Helper loaded: form_helper
+DEBUG - 2015-05-07 22:51:13 --> Form Validation Class Initialized
+DEBUG - 2015-05-07 22:51:13 --> Helper loaded: language_helper
+DEBUG - 2015-05-07 22:51:13 --> Language file loaded: language/english/user_interface_lang.php
+DEBUG - 2015-05-07 22:51:13 --> Language file loaded: language/spanish/form_validation_lang.php
+DEBUG - 2015-05-07 22:51:13 --> XSS Filtering completed
+DEBUG - 2015-05-07 22:51:13 --> XSS Filtering completed
+DEBUG - 2015-05-07 22:51:13 --> XSS Filtering completed
+DEBUG - 2015-05-07 22:51:13 --> XSS Filtering completed
+DEBUG - 2015-05-07 22:51:13 --> XSS Filtering completed
+DEBUG - 2015-05-07 22:51:13 --> XSS Filtering completed
+DEBUG - 2015-05-07 22:51:13 --> XSS Filtering completed
+DEBUG - 2015-05-07 22:51:13 --> Final output sent to browser
+DEBUG - 2015-05-07 22:51:13 --> Total execution time: 0.2076
+DEBUG - 2015-05-07 22:51:42 --> Config Class Initialized
+DEBUG - 2015-05-07 22:51:42 --> Hooks Class Initialized
+DEBUG - 2015-05-07 22:51:42 --> UTF-8 Support Enabled
+DEBUG - 2015-05-07 22:51:42 --> Utf8 Class Initialized
+DEBUG - 2015-05-07 22:51:42 --> URI Class Initialized
+DEBUG - 2015-05-07 22:51:42 --> Router Class Initialized
+DEBUG - 2015-05-07 22:51:42 --> Output Class Initialized
+DEBUG - 2015-05-07 22:51:42 --> Security Class Initialized
+DEBUG - 2015-05-07 22:51:42 --> Input Class Initialized
+DEBUG - 2015-05-07 22:51:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-05-07 22:51:42 --> Language Class Initialized
+DEBUG - 2015-05-07 22:51:42 --> Loader Class Initialized
+DEBUG - 2015-05-07 22:51:42 --> Helper loaded: url_helper
+DEBUG - 2015-05-07 22:51:42 --> Helper loaded: utils_helper
+DEBUG - 2015-05-07 22:51:42 --> CI_Session Class Initialized
+DEBUG - 2015-05-07 22:51:42 --> CI_Session routines successfully run
+DEBUG - 2015-05-07 22:51:42 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 22:51:42 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 22:51:42 --> Controller Class Initialized
+DEBUG - 2015-05-07 22:51:42 --> Model Class Initialized
+DEBUG - 2015-05-07 22:51:42 --> Model Class Initialized
+DEBUG - 2015-05-07 22:51:42 --> Helper loaded: captcha_helper
+DEBUG - 2015-05-07 22:51:42 --> Helper loaded: form_helper
+DEBUG - 2015-05-07 22:51:42 --> Form Validation Class Initialized
+DEBUG - 2015-05-07 22:51:42 --> Helper loaded: language_helper
+DEBUG - 2015-05-07 22:51:42 --> Language file loaded: language/english/user_interface_lang.php
+DEBUG - 2015-05-07 22:51:42 --> File loaded: /var/www/public/application/views/templates/header.php
+DEBUG - 2015-05-07 22:51:42 --> File loaded: /var/www/public/application/views/login.php
+DEBUG - 2015-05-07 22:51:42 --> File loaded: /var/www/public/application/views/templates/footer.php
+DEBUG - 2015-05-07 22:51:42 --> Final output sent to browser
+DEBUG - 2015-05-07 22:51:42 --> Total execution time: 0.1246
+DEBUG - 2015-05-07 22:52:35 --> Config Class Initialized
+DEBUG - 2015-05-07 22:52:35 --> Hooks Class Initialized
+DEBUG - 2015-05-07 22:52:35 --> UTF-8 Support Enabled
+DEBUG - 2015-05-07 22:52:35 --> Utf8 Class Initialized
+DEBUG - 2015-05-07 22:52:35 --> URI Class Initialized
+DEBUG - 2015-05-07 22:52:35 --> Router Class Initialized
+DEBUG - 2015-05-07 22:52:35 --> Output Class Initialized
+DEBUG - 2015-05-07 22:52:35 --> Security Class Initialized
+DEBUG - 2015-05-07 22:52:35 --> Input Class Initialized
+DEBUG - 2015-05-07 22:52:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-05-07 22:52:35 --> Language Class Initialized
+DEBUG - 2015-05-07 22:52:35 --> Loader Class Initialized
+DEBUG - 2015-05-07 22:52:35 --> Helper loaded: url_helper
+DEBUG - 2015-05-07 22:52:35 --> Helper loaded: utils_helper
+DEBUG - 2015-05-07 22:52:35 --> CI_Session Class Initialized
+DEBUG - 2015-05-07 22:52:35 --> CI_Session routines successfully run
+DEBUG - 2015-05-07 22:52:35 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 22:52:35 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 22:52:35 --> Controller Class Initialized
+DEBUG - 2015-05-07 22:52:35 --> Model Class Initialized
+DEBUG - 2015-05-07 22:52:35 --> Model Class Initialized
+DEBUG - 2015-05-07 22:52:35 --> Helper loaded: captcha_helper
+DEBUG - 2015-05-07 22:52:35 --> Helper loaded: form_helper
+DEBUG - 2015-05-07 22:52:35 --> Form Validation Class Initialized
+DEBUG - 2015-05-07 22:52:35 --> Helper loaded: language_helper
+DEBUG - 2015-05-07 22:52:35 --> Language file loaded: language/english/user_interface_lang.php
+DEBUG - 2015-05-07 22:52:35 --> Language file loaded: language/spanish/form_validation_lang.php
+DEBUG - 2015-05-07 22:52:35 --> XSS Filtering completed
+DEBUG - 2015-05-07 22:52:35 --> XSS Filtering completed
+DEBUG - 2015-05-07 22:52:35 --> Final output sent to browser
+DEBUG - 2015-05-07 22:52:35 --> Total execution time: 0.1906
+DEBUG - 2015-05-07 22:52:46 --> Config Class Initialized
+DEBUG - 2015-05-07 22:52:46 --> Hooks Class Initialized
+DEBUG - 2015-05-07 22:52:46 --> UTF-8 Support Enabled
+DEBUG - 2015-05-07 22:52:46 --> Utf8 Class Initialized
+DEBUG - 2015-05-07 22:52:46 --> URI Class Initialized
+DEBUG - 2015-05-07 22:52:46 --> Router Class Initialized
+DEBUG - 2015-05-07 22:52:46 --> Output Class Initialized
+DEBUG - 2015-05-07 22:52:46 --> Security Class Initialized
+DEBUG - 2015-05-07 22:52:46 --> Input Class Initialized
+DEBUG - 2015-05-07 22:52:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-05-07 22:52:46 --> Language Class Initialized
+DEBUG - 2015-05-07 22:52:46 --> Loader Class Initialized
+DEBUG - 2015-05-07 22:52:46 --> Helper loaded: url_helper
+DEBUG - 2015-05-07 22:52:46 --> Helper loaded: utils_helper
+DEBUG - 2015-05-07 22:52:46 --> CI_Session Class Initialized
+DEBUG - 2015-05-07 22:52:46 --> CI_Session routines successfully run
+DEBUG - 2015-05-07 22:52:46 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 22:52:46 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 22:52:46 --> Controller Class Initialized
+DEBUG - 2015-05-07 22:52:46 --> Model Class Initialized
+DEBUG - 2015-05-07 22:52:46 --> Model Class Initialized
+DEBUG - 2015-05-07 22:52:46 --> Helper loaded: captcha_helper
+DEBUG - 2015-05-07 22:52:46 --> Helper loaded: form_helper
+DEBUG - 2015-05-07 22:52:46 --> Form Validation Class Initialized
+DEBUG - 2015-05-07 22:52:46 --> Helper loaded: language_helper
+DEBUG - 2015-05-07 22:52:46 --> Language file loaded: language/english/user_interface_lang.php
+DEBUG - 2015-05-07 22:52:46 --> Language file loaded: language/spanish/form_validation_lang.php
+DEBUG - 2015-05-07 22:52:46 --> XSS Filtering completed
+DEBUG - 2015-05-07 22:52:46 --> XSS Filtering completed
+DEBUG - 2015-05-07 22:52:46 --> Final output sent to browser
+DEBUG - 2015-05-07 22:52:46 --> Total execution time: 0.1851
+DEBUG - 2015-05-07 22:55:18 --> Config Class Initialized
+DEBUG - 2015-05-07 22:55:18 --> Hooks Class Initialized
+DEBUG - 2015-05-07 22:55:18 --> UTF-8 Support Enabled
+DEBUG - 2015-05-07 22:55:18 --> Utf8 Class Initialized
+DEBUG - 2015-05-07 22:55:18 --> URI Class Initialized
+DEBUG - 2015-05-07 22:55:18 --> Router Class Initialized
+DEBUG - 2015-05-07 22:55:18 --> Output Class Initialized
+DEBUG - 2015-05-07 22:55:18 --> Security Class Initialized
+DEBUG - 2015-05-07 22:55:18 --> Input Class Initialized
+DEBUG - 2015-05-07 22:55:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-05-07 22:55:18 --> Language Class Initialized
+DEBUG - 2015-05-07 22:55:18 --> Loader Class Initialized
+DEBUG - 2015-05-07 22:55:18 --> Helper loaded: url_helper
+DEBUG - 2015-05-07 22:55:18 --> Helper loaded: utils_helper
+DEBUG - 2015-05-07 22:55:18 --> CI_Session Class Initialized
+DEBUG - 2015-05-07 22:55:18 --> Session: Regenerate ID
+DEBUG - 2015-05-07 22:55:18 --> CI_Session routines successfully run
+DEBUG - 2015-05-07 22:55:18 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 22:55:18 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 22:55:18 --> Controller Class Initialized
+DEBUG - 2015-05-07 22:55:18 --> Model Class Initialized
+DEBUG - 2015-05-07 22:55:18 --> Model Class Initialized
+DEBUG - 2015-05-07 22:55:18 --> Helper loaded: captcha_helper
+DEBUG - 2015-05-07 22:55:18 --> Helper loaded: form_helper
+DEBUG - 2015-05-07 22:55:18 --> Form Validation Class Initialized
+DEBUG - 2015-05-07 22:55:18 --> Helper loaded: language_helper
+DEBUG - 2015-05-07 22:55:18 --> Language file loaded: language/english/user_interface_lang.php
+DEBUG - 2015-05-07 22:55:18 --> File loaded: /var/www/public/application/views/templates/header.php
+DEBUG - 2015-05-07 22:55:18 --> File loaded: /var/www/public/application/views/login.php
+DEBUG - 2015-05-07 22:55:18 --> File loaded: /var/www/public/application/views/templates/footer.php
+DEBUG - 2015-05-07 22:55:18 --> Final output sent to browser
+DEBUG - 2015-05-07 22:55:18 --> Total execution time: 0.1541
+DEBUG - 2015-05-07 22:55:30 --> Config Class Initialized
+DEBUG - 2015-05-07 22:55:30 --> Hooks Class Initialized
+DEBUG - 2015-05-07 22:55:30 --> UTF-8 Support Enabled
+DEBUG - 2015-05-07 22:55:30 --> Utf8 Class Initialized
+DEBUG - 2015-05-07 22:55:30 --> URI Class Initialized
+DEBUG - 2015-05-07 22:55:30 --> Router Class Initialized
+DEBUG - 2015-05-07 22:55:30 --> Output Class Initialized
+DEBUG - 2015-05-07 22:55:30 --> Security Class Initialized
+DEBUG - 2015-05-07 22:55:30 --> Input Class Initialized
+DEBUG - 2015-05-07 22:55:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-05-07 22:55:30 --> Language Class Initialized
+DEBUG - 2015-05-07 22:55:30 --> Loader Class Initialized
+DEBUG - 2015-05-07 22:55:30 --> Helper loaded: url_helper
+DEBUG - 2015-05-07 22:55:30 --> Helper loaded: utils_helper
+DEBUG - 2015-05-07 22:55:30 --> CI_Session Class Initialized
+DEBUG - 2015-05-07 22:55:30 --> CI_Session routines successfully run
+DEBUG - 2015-05-07 22:55:30 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 22:55:30 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 22:55:30 --> Controller Class Initialized
+DEBUG - 2015-05-07 22:55:30 --> Model Class Initialized
+DEBUG - 2015-05-07 22:55:30 --> Model Class Initialized
+DEBUG - 2015-05-07 22:55:30 --> Helper loaded: captcha_helper
+DEBUG - 2015-05-07 22:55:30 --> Helper loaded: form_helper
+DEBUG - 2015-05-07 22:55:30 --> Form Validation Class Initialized
+DEBUG - 2015-05-07 22:55:30 --> Helper loaded: language_helper
+DEBUG - 2015-05-07 22:55:30 --> Language file loaded: language/english/user_interface_lang.php
+DEBUG - 2015-05-07 22:55:30 --> Language file loaded: language/spanish/form_validation_lang.php
+DEBUG - 2015-05-07 22:55:30 --> XSS Filtering completed
+DEBUG - 2015-05-07 22:55:30 --> XSS Filtering completed
+DEBUG - 2015-05-07 22:55:30 --> XSS Filtering completed
+DEBUG - 2015-05-07 22:55:30 --> XSS Filtering completed
+DEBUG - 2015-05-07 22:55:30 --> XSS Filtering completed
+DEBUG - 2015-05-07 22:55:30 --> XSS Filtering completed
+DEBUG - 2015-05-07 22:55:30 --> XSS Filtering completed
+DEBUG - 2015-05-07 22:55:30 --> Final output sent to browser
+DEBUG - 2015-05-07 22:55:30 --> Total execution time: 0.2089
+DEBUG - 2015-05-07 22:55:40 --> Config Class Initialized
+DEBUG - 2015-05-07 22:55:40 --> Hooks Class Initialized
+DEBUG - 2015-05-07 22:55:40 --> UTF-8 Support Enabled
+DEBUG - 2015-05-07 22:55:40 --> Utf8 Class Initialized
+DEBUG - 2015-05-07 22:55:40 --> URI Class Initialized
+DEBUG - 2015-05-07 22:55:40 --> Router Class Initialized
+DEBUG - 2015-05-07 22:55:40 --> Output Class Initialized
+DEBUG - 2015-05-07 22:55:40 --> Security Class Initialized
+DEBUG - 2015-05-07 22:55:40 --> Input Class Initialized
+DEBUG - 2015-05-07 22:55:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-05-07 22:55:40 --> Language Class Initialized
+DEBUG - 2015-05-07 22:55:40 --> Loader Class Initialized
+DEBUG - 2015-05-07 22:55:40 --> Helper loaded: url_helper
+DEBUG - 2015-05-07 22:55:40 --> Helper loaded: utils_helper
+DEBUG - 2015-05-07 22:55:40 --> CI_Session Class Initialized
+DEBUG - 2015-05-07 22:55:40 --> CI_Session routines successfully run
+DEBUG - 2015-05-07 22:55:40 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 22:55:40 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 22:55:40 --> Controller Class Initialized
+DEBUG - 2015-05-07 22:55:40 --> Model Class Initialized
+DEBUG - 2015-05-07 22:55:40 --> Model Class Initialized
+DEBUG - 2015-05-07 22:55:40 --> Helper loaded: captcha_helper
+DEBUG - 2015-05-07 22:55:40 --> Helper loaded: form_helper
+DEBUG - 2015-05-07 22:55:40 --> Form Validation Class Initialized
+DEBUG - 2015-05-07 22:55:40 --> Helper loaded: language_helper
+DEBUG - 2015-05-07 22:55:40 --> Language file loaded: language/english/user_interface_lang.php
+DEBUG - 2015-05-07 22:55:40 --> File loaded: /var/www/public/application/views/templates/header.php
+DEBUG - 2015-05-07 22:55:40 --> File loaded: /var/www/public/application/views/login.php
+DEBUG - 2015-05-07 22:55:40 --> File loaded: /var/www/public/application/views/templates/footer.php
+DEBUG - 2015-05-07 22:55:40 --> Final output sent to browser
+DEBUG - 2015-05-07 22:55:40 --> Total execution time: 0.1211
+DEBUG - 2015-05-07 22:55:50 --> Config Class Initialized
+DEBUG - 2015-05-07 22:55:50 --> Hooks Class Initialized
+DEBUG - 2015-05-07 22:55:50 --> UTF-8 Support Enabled
+DEBUG - 2015-05-07 22:55:50 --> Utf8 Class Initialized
+DEBUG - 2015-05-07 22:55:50 --> URI Class Initialized
+DEBUG - 2015-05-07 22:55:50 --> Router Class Initialized
+DEBUG - 2015-05-07 22:55:50 --> Output Class Initialized
+DEBUG - 2015-05-07 22:55:50 --> Security Class Initialized
+DEBUG - 2015-05-07 22:55:50 --> Input Class Initialized
+DEBUG - 2015-05-07 22:55:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-05-07 22:55:50 --> Language Class Initialized
+DEBUG - 2015-05-07 22:55:50 --> Loader Class Initialized
+DEBUG - 2015-05-07 22:55:50 --> Helper loaded: url_helper
+DEBUG - 2015-05-07 22:55:50 --> Helper loaded: utils_helper
+DEBUG - 2015-05-07 22:55:50 --> CI_Session Class Initialized
+DEBUG - 2015-05-07 22:55:50 --> CI_Session routines successfully run
+DEBUG - 2015-05-07 22:55:50 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 22:55:50 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 22:55:50 --> Controller Class Initialized
+DEBUG - 2015-05-07 22:55:50 --> Model Class Initialized
+DEBUG - 2015-05-07 22:55:50 --> Model Class Initialized
+DEBUG - 2015-05-07 22:55:50 --> Helper loaded: captcha_helper
+DEBUG - 2015-05-07 22:55:51 --> Helper loaded: form_helper
+DEBUG - 2015-05-07 22:55:51 --> Form Validation Class Initialized
+DEBUG - 2015-05-07 22:55:51 --> Helper loaded: language_helper
+DEBUG - 2015-05-07 22:55:51 --> Language file loaded: language/english/user_interface_lang.php
+DEBUG - 2015-05-07 22:55:51 --> Language file loaded: language/spanish/form_validation_lang.php
+DEBUG - 2015-05-07 22:55:51 --> XSS Filtering completed
+DEBUG - 2015-05-07 22:55:51 --> XSS Filtering completed
+DEBUG - 2015-05-07 22:55:51 --> Final output sent to browser
+DEBUG - 2015-05-07 22:55:51 --> Total execution time: 0.2605
+DEBUG - 2015-05-07 22:55:54 --> Config Class Initialized
+DEBUG - 2015-05-07 22:55:54 --> Hooks Class Initialized
+DEBUG - 2015-05-07 22:55:54 --> UTF-8 Support Enabled
+DEBUG - 2015-05-07 22:55:54 --> Utf8 Class Initialized
+DEBUG - 2015-05-07 22:55:54 --> URI Class Initialized
+DEBUG - 2015-05-07 22:55:54 --> Router Class Initialized
+DEBUG - 2015-05-07 22:55:54 --> Output Class Initialized
+DEBUG - 2015-05-07 22:55:54 --> Security Class Initialized
+DEBUG - 2015-05-07 22:55:54 --> Input Class Initialized
+DEBUG - 2015-05-07 22:55:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-05-07 22:55:54 --> Language Class Initialized
+DEBUG - 2015-05-07 22:55:54 --> Loader Class Initialized
+DEBUG - 2015-05-07 22:55:54 --> Helper loaded: url_helper
+DEBUG - 2015-05-07 22:55:54 --> Helper loaded: utils_helper
+DEBUG - 2015-05-07 22:55:54 --> CI_Session Class Initialized
+DEBUG - 2015-05-07 22:55:54 --> CI_Session routines successfully run
+DEBUG - 2015-05-07 22:55:54 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 22:55:54 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 22:55:54 --> Controller Class Initialized
+DEBUG - 2015-05-07 22:55:54 --> Helper loaded: language_helper
+DEBUG - 2015-05-07 22:55:54 --> Language file loaded: language/english/user_interface_lang.php
+DEBUG - 2015-05-07 22:55:54 --> File loaded: /var/www/public/application/views/templates/header.php
+DEBUG - 2015-05-07 22:55:54 --> File loaded: /var/www/public/application/views/dashboard.php
+DEBUG - 2015-05-07 22:55:54 --> File loaded: /var/www/public/application/views/templates/footer.php
+DEBUG - 2015-05-07 22:55:54 --> Final output sent to browser
+DEBUG - 2015-05-07 22:55:54 --> Total execution time: 0.1077
+DEBUG - 2015-05-07 22:57:13 --> Config Class Initialized
+DEBUG - 2015-05-07 22:57:13 --> Hooks Class Initialized
+DEBUG - 2015-05-07 22:57:13 --> UTF-8 Support Enabled
+DEBUG - 2015-05-07 22:57:13 --> Utf8 Class Initialized
+DEBUG - 2015-05-07 22:57:13 --> URI Class Initialized
+DEBUG - 2015-05-07 22:57:13 --> Router Class Initialized
+DEBUG - 2015-05-07 22:57:13 --> Output Class Initialized
+DEBUG - 2015-05-07 22:57:13 --> Security Class Initialized
+DEBUG - 2015-05-07 22:57:13 --> Input Class Initialized
+DEBUG - 2015-05-07 22:57:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-05-07 22:57:13 --> Language Class Initialized
+DEBUG - 2015-05-07 22:57:13 --> Loader Class Initialized
+DEBUG - 2015-05-07 22:57:13 --> Helper loaded: url_helper
+DEBUG - 2015-05-07 22:57:13 --> Helper loaded: utils_helper
+DEBUG - 2015-05-07 22:57:13 --> CI_Session Class Initialized
+DEBUG - 2015-05-07 22:57:13 --> CI_Session routines successfully run
+DEBUG - 2015-05-07 22:57:13 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 22:57:13 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 22:57:13 --> Controller Class Initialized
+DEBUG - 2015-05-07 22:57:13 --> Model Class Initialized
+DEBUG - 2015-05-07 22:57:13 --> Model Class Initialized
+DEBUG - 2015-05-07 22:57:13 --> Helper loaded: captcha_helper
+DEBUG - 2015-05-07 22:57:13 --> Helper loaded: form_helper
+DEBUG - 2015-05-07 22:57:13 --> Form Validation Class Initialized
+DEBUG - 2015-05-07 22:57:13 --> Helper loaded: language_helper
+DEBUG - 2015-05-07 22:57:13 --> Language file loaded: language/english/user_interface_lang.php
+DEBUG - 2015-05-07 22:57:13 --> Config Class Initialized
+DEBUG - 2015-05-07 22:57:13 --> Hooks Class Initialized
+DEBUG - 2015-05-07 22:57:13 --> UTF-8 Support Enabled
+DEBUG - 2015-05-07 22:57:13 --> Utf8 Class Initialized
+DEBUG - 2015-05-07 22:57:13 --> URI Class Initialized
+DEBUG - 2015-05-07 22:57:13 --> No URI present. Default controller set.
+DEBUG - 2015-05-07 22:57:13 --> Router Class Initialized
+DEBUG - 2015-05-07 22:57:13 --> Output Class Initialized
+DEBUG - 2015-05-07 22:57:13 --> Security Class Initialized
+DEBUG - 2015-05-07 22:57:13 --> Input Class Initialized
+DEBUG - 2015-05-07 22:57:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-05-07 22:57:13 --> Language Class Initialized
+DEBUG - 2015-05-07 22:57:13 --> Loader Class Initialized
+DEBUG - 2015-05-07 22:57:13 --> Helper loaded: url_helper
+DEBUG - 2015-05-07 22:57:13 --> Helper loaded: utils_helper
+DEBUG - 2015-05-07 22:57:13 --> CI_Session Class Initialized
+DEBUG - 2015-05-07 22:57:13 --> A session cookie was not found.
+DEBUG - 2015-05-07 22:57:13 --> Session: Creating new session (f201b357f69c8ba34e1112075269f0ac)
+DEBUG - 2015-05-07 22:57:13 --> CI_Session routines successfully run
+DEBUG - 2015-05-07 22:57:13 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 22:57:13 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 22:57:13 --> Controller Class Initialized
+DEBUG - 2015-05-07 22:57:13 --> Helper loaded: language_helper
+DEBUG - 2015-05-07 22:57:13 --> Language file loaded: language/spanish/user_interface_lang.php
+DEBUG - 2015-05-07 22:57:13 --> File loaded: /var/www/public/application/views/templates/header.php
+DEBUG - 2015-05-07 22:57:13 --> File loaded: /var/www/public/application/views/index.php
+DEBUG - 2015-05-07 22:57:13 --> File loaded: /var/www/public/application/views/templates/footer.php
+DEBUG - 2015-05-07 22:57:13 --> Final output sent to browser
+DEBUG - 2015-05-07 22:57:13 --> Total execution time: 0.0763
+DEBUG - 2015-05-07 22:59:34 --> Config Class Initialized
+DEBUG - 2015-05-07 22:59:34 --> Hooks Class Initialized
+DEBUG - 2015-05-07 22:59:34 --> UTF-8 Support Enabled
+DEBUG - 2015-05-07 22:59:34 --> Utf8 Class Initialized
+DEBUG - 2015-05-07 22:59:34 --> URI Class Initialized
+DEBUG - 2015-05-07 22:59:34 --> Router Class Initialized
+DEBUG - 2015-05-07 22:59:34 --> Output Class Initialized
+DEBUG - 2015-05-07 22:59:34 --> Security Class Initialized
+DEBUG - 2015-05-07 22:59:34 --> Input Class Initialized
+DEBUG - 2015-05-07 22:59:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-05-07 22:59:34 --> Language Class Initialized
+DEBUG - 2015-05-07 22:59:34 --> Loader Class Initialized
+DEBUG - 2015-05-07 22:59:34 --> Helper loaded: url_helper
+DEBUG - 2015-05-07 22:59:34 --> Helper loaded: utils_helper
+DEBUG - 2015-05-07 22:59:34 --> CI_Session Class Initialized
+DEBUG - 2015-05-07 22:59:34 --> CI_Session routines successfully run
+DEBUG - 2015-05-07 22:59:34 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 22:59:34 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 22:59:34 --> Controller Class Initialized
+DEBUG - 2015-05-07 22:59:34 --> Model Class Initialized
+DEBUG - 2015-05-07 22:59:34 --> Model Class Initialized
+DEBUG - 2015-05-07 22:59:34 --> Helper loaded: captcha_helper
+DEBUG - 2015-05-07 22:59:34 --> Helper loaded: form_helper
+DEBUG - 2015-05-07 22:59:34 --> Form Validation Class Initialized
+DEBUG - 2015-05-07 22:59:34 --> Helper loaded: language_helper
+DEBUG - 2015-05-07 22:59:34 --> Language file loaded: language/spanish/user_interface_lang.php
+DEBUG - 2015-05-07 22:59:34 --> File loaded: /var/www/public/application/views/templates/header.php
+DEBUG - 2015-05-07 22:59:34 --> File loaded: /var/www/public/application/views/login.php
+DEBUG - 2015-05-07 22:59:34 --> File loaded: /var/www/public/application/views/templates/footer.php
+DEBUG - 2015-05-07 22:59:34 --> Final output sent to browser
+DEBUG - 2015-05-07 22:59:34 --> Total execution time: 0.1216
+DEBUG - 2015-05-07 23:06:38 --> Config Class Initialized
+DEBUG - 2015-05-07 23:06:38 --> Hooks Class Initialized
+DEBUG - 2015-05-07 23:06:38 --> UTF-8 Support Enabled
+DEBUG - 2015-05-07 23:06:38 --> Utf8 Class Initialized
+DEBUG - 2015-05-07 23:06:38 --> URI Class Initialized
+DEBUG - 2015-05-07 23:06:38 --> Router Class Initialized
+DEBUG - 2015-05-07 23:06:38 --> Output Class Initialized
+DEBUG - 2015-05-07 23:06:38 --> Security Class Initialized
+DEBUG - 2015-05-07 23:06:38 --> Input Class Initialized
+DEBUG - 2015-05-07 23:06:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-05-07 23:06:38 --> Language Class Initialized
+DEBUG - 2015-05-07 23:06:38 --> Loader Class Initialized
+DEBUG - 2015-05-07 23:06:38 --> Helper loaded: url_helper
+DEBUG - 2015-05-07 23:06:38 --> Helper loaded: utils_helper
+DEBUG - 2015-05-07 23:06:38 --> CI_Session Class Initialized
+DEBUG - 2015-05-07 23:06:38 --> Session: Regenerate ID
+DEBUG - 2015-05-07 23:06:38 --> CI_Session routines successfully run
+DEBUG - 2015-05-07 23:06:38 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 23:06:38 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 23:06:38 --> Controller Class Initialized
+DEBUG - 2015-05-07 23:06:38 --> Model Class Initialized
+DEBUG - 2015-05-07 23:06:38 --> Model Class Initialized
+DEBUG - 2015-05-07 23:06:38 --> Helper loaded: captcha_helper
+DEBUG - 2015-05-07 23:06:38 --> Helper loaded: form_helper
+DEBUG - 2015-05-07 23:06:38 --> Form Validation Class Initialized
+DEBUG - 2015-05-07 23:06:38 --> Helper loaded: language_helper
+DEBUG - 2015-05-07 23:06:38 --> Language file loaded: language/spanish/user_interface_lang.php
+DEBUG - 2015-05-07 23:06:38 --> File loaded: /var/www/public/application/views/templates/header.php
+DEBUG - 2015-05-07 23:06:38 --> File loaded: /var/www/public/application/views/login.php
+DEBUG - 2015-05-07 23:06:38 --> File loaded: /var/www/public/application/views/templates/footer.php
+DEBUG - 2015-05-07 23:06:38 --> Final output sent to browser
+DEBUG - 2015-05-07 23:06:38 --> Total execution time: 0.1285
+DEBUG - 2015-05-07 23:08:25 --> Config Class Initialized
+DEBUG - 2015-05-07 23:08:25 --> Hooks Class Initialized
+DEBUG - 2015-05-07 23:08:25 --> UTF-8 Support Enabled
+DEBUG - 2015-05-07 23:08:25 --> Utf8 Class Initialized
+DEBUG - 2015-05-07 23:08:25 --> URI Class Initialized
+DEBUG - 2015-05-07 23:08:25 --> Router Class Initialized
+DEBUG - 2015-05-07 23:08:25 --> Output Class Initialized
+DEBUG - 2015-05-07 23:08:25 --> Security Class Initialized
+DEBUG - 2015-05-07 23:08:25 --> Input Class Initialized
+DEBUG - 2015-05-07 23:08:25 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-05-07 23:08:25 --> Language Class Initialized
+DEBUG - 2015-05-07 23:08:25 --> Loader Class Initialized
+DEBUG - 2015-05-07 23:08:25 --> Helper loaded: url_helper
+DEBUG - 2015-05-07 23:08:25 --> Helper loaded: utils_helper
+DEBUG - 2015-05-07 23:08:25 --> CI_Session Class Initialized
+DEBUG - 2015-05-07 23:08:25 --> CI_Session routines successfully run
+DEBUG - 2015-05-07 23:08:25 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 23:08:25 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 23:08:25 --> Controller Class Initialized
+DEBUG - 2015-05-07 23:08:25 --> Model Class Initialized
+DEBUG - 2015-05-07 23:08:25 --> Model Class Initialized
+DEBUG - 2015-05-07 23:08:25 --> Helper loaded: captcha_helper
+DEBUG - 2015-05-07 23:08:25 --> Helper loaded: form_helper
+DEBUG - 2015-05-07 23:08:25 --> Form Validation Class Initialized
+DEBUG - 2015-05-07 23:08:25 --> Helper loaded: language_helper
+DEBUG - 2015-05-07 23:08:25 --> Language file loaded: language/spanish/user_interface_lang.php
+DEBUG - 2015-05-07 23:08:25 --> File loaded: /var/www/public/application/views/templates/header.php
+DEBUG - 2015-05-07 23:08:25 --> File loaded: /var/www/public/application/views/login.php
+DEBUG - 2015-05-07 23:08:25 --> File loaded: /var/www/public/application/views/templates/footer.php
+DEBUG - 2015-05-07 23:08:25 --> Final output sent to browser
+DEBUG - 2015-05-07 23:08:25 --> Total execution time: 0.1187
+DEBUG - 2015-05-07 23:18:02 --> Config Class Initialized
+DEBUG - 2015-05-07 23:18:02 --> Hooks Class Initialized
+DEBUG - 2015-05-07 23:18:02 --> UTF-8 Support Enabled
+DEBUG - 2015-05-07 23:18:02 --> Utf8 Class Initialized
+DEBUG - 2015-05-07 23:18:02 --> URI Class Initialized
+DEBUG - 2015-05-07 23:18:02 --> Router Class Initialized
+DEBUG - 2015-05-07 23:18:02 --> Output Class Initialized
+DEBUG - 2015-05-07 23:18:02 --> Security Class Initialized
+DEBUG - 2015-05-07 23:18:02 --> Input Class Initialized
+DEBUG - 2015-05-07 23:18:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-05-07 23:18:02 --> Language Class Initialized
+DEBUG - 2015-05-07 23:18:02 --> Loader Class Initialized
+DEBUG - 2015-05-07 23:18:02 --> Helper loaded: url_helper
+DEBUG - 2015-05-07 23:18:02 --> Helper loaded: utils_helper
+DEBUG - 2015-05-07 23:18:02 --> CI_Session Class Initialized
+DEBUG - 2015-05-07 23:18:02 --> Session: Regenerate ID
+DEBUG - 2015-05-07 23:18:02 --> CI_Session routines successfully run
+DEBUG - 2015-05-07 23:18:02 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 23:18:02 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 23:18:02 --> Controller Class Initialized
+DEBUG - 2015-05-07 23:18:02 --> Model Class Initialized
+DEBUG - 2015-05-07 23:18:02 --> Model Class Initialized
+DEBUG - 2015-05-07 23:18:02 --> Helper loaded: captcha_helper
+DEBUG - 2015-05-07 23:18:02 --> Helper loaded: form_helper
+DEBUG - 2015-05-07 23:18:02 --> Form Validation Class Initialized
+DEBUG - 2015-05-07 23:18:02 --> Helper loaded: language_helper
+DEBUG - 2015-05-07 23:18:02 --> Language file loaded: language/spanish/user_interface_lang.php
+DEBUG - 2015-05-07 23:18:02 --> File loaded: /var/www/public/application/views/templates/header.php
+DEBUG - 2015-05-07 23:18:02 --> File loaded: /var/www/public/application/views/login.php
+DEBUG - 2015-05-07 23:18:02 --> File loaded: /var/www/public/application/views/templates/footer.php
+DEBUG - 2015-05-07 23:18:02 --> Final output sent to browser
+DEBUG - 2015-05-07 23:18:02 --> Total execution time: 0.1304
+DEBUG - 2015-05-07 23:23:56 --> Config Class Initialized
+DEBUG - 2015-05-07 23:23:56 --> Hooks Class Initialized
+DEBUG - 2015-05-07 23:23:56 --> UTF-8 Support Enabled
+DEBUG - 2015-05-07 23:23:56 --> Utf8 Class Initialized
+DEBUG - 2015-05-07 23:23:56 --> URI Class Initialized
+DEBUG - 2015-05-07 23:23:56 --> Router Class Initialized
+DEBUG - 2015-05-07 23:23:56 --> Output Class Initialized
+DEBUG - 2015-05-07 23:23:56 --> Security Class Initialized
+DEBUG - 2015-05-07 23:23:56 --> Input Class Initialized
+DEBUG - 2015-05-07 23:23:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2015-05-07 23:23:56 --> Language Class Initialized
+DEBUG - 2015-05-07 23:23:56 --> Loader Class Initialized
+DEBUG - 2015-05-07 23:23:56 --> Helper loaded: url_helper
+DEBUG - 2015-05-07 23:23:56 --> Helper loaded: utils_helper
+DEBUG - 2015-05-07 23:23:56 --> CI_Session Class Initialized
+DEBUG - 2015-05-07 23:23:56 --> Session: Regenerate ID
+DEBUG - 2015-05-07 23:23:56 --> CI_Session routines successfully run
+DEBUG - 2015-05-07 23:23:56 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 23:23:56 --> Database Driver Class Initialized
+DEBUG - 2015-05-07 23:23:56 --> Controller Class Initialized
+DEBUG - 2015-05-07 23:23:56 --> Model Class Initialized
+DEBUG - 2015-05-07 23:23:56 --> Model Class Initialized
+DEBUG - 2015-05-07 23:23:56 --> Helper loaded: captcha_helper
+DEBUG - 2015-05-07 23:23:56 --> Helper loaded: form_helper
+DEBUG - 2015-05-07 23:23:56 --> Form Validation Class Initialized
+DEBUG - 2015-05-07 23:23:56 --> Helper loaded: language_helper
+DEBUG - 2015-05-07 23:23:56 --> Language file loaded: language/spanish/user_interface_lang.php
+DEBUG - 2015-05-07 23:23:56 --> File loaded: /var/www/public/application/views/templates/header.php
+DEBUG - 2015-05-07 23:23:56 --> File loaded: /var/www/public/application/views/login.php
+DEBUG - 2015-05-07 23:23:56 --> File loaded: /var/www/public/application/views/templates/footer.php
+DEBUG - 2015-05-07 23:23:56 --> Final output sent to browser
+DEBUG - 2015-05-07 23:23:56 --> Total execution time: 0.1199

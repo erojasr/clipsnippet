@@ -2,32 +2,8 @@ $(document).ready(function(){
     login();
     switch_login_register();
     register_new_user();
-    language();
 
 });
-
-function language(){
-
-    $(".bfh-selectbox").on('change.bfhselectbox', function(){
-        console.log($(this).val());
-
-        var lang = $(this).val();
-
-        $.ajax({
-            'url':'LangSwitch/switch_language/'+lang,
-            dataType:'json',
-            success:function(data){
-                console.log(data);
-                if(data.success == true){
-                    location.reload();
-                }
-
-            }
-        })
-
-    });
-
-}
 
 function login(){
 

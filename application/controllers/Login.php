@@ -18,13 +18,11 @@ class Login extends CI_Controller {
     public function index()
     {
 	    $vars['css_load'] = array(
-	        'login_style' => 'css/login.css',
-            'form-helper' => 'apps/BootstrapFormHelpers/dist/css/bootstrap-formhelpers.min.css'
+	        'login_style' => 'css/login.css'
 	    );
 
         $vars['js_load'] = array(
             'jquery_form' => 'js/jquery.form.js',
-            'form-helper' => 'apps/BootstrapFormHelpers/dist/js/bootstrap-formhelpers.min.js',
             'jquery_login' => 'js/login.js'
         );
 
@@ -33,9 +31,6 @@ class Login extends CI_Controller {
         $vars['image'] = $captcha['image'];
         /* Store the captcha value (or 'word') in a session to retrieve later */
         $this->session->set_userdata(array('captchaWord'=>$captcha['word'], 'image'=> $captcha['time'].'.jpg'));
-
-        // load language file
-        $vars['name'] = lang('firstname');
 
         $this->load->template('login', $vars);
     }
@@ -124,7 +119,7 @@ class Login extends CI_Controller {
                 'password' => $this->input->post('password'),
             );
 
-            //$this->User_model->new_account($data);
+            $this->User_model->new_account($data);
 
             $params['redirect'] = base_url().'login#login';
             $params['user'] = $this->input->post('name').' '.$this->input->post('lastname');

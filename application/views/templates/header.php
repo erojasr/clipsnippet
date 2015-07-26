@@ -10,6 +10,7 @@
     <link href="<?php echo assets_url(); ?>css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo assets_url(); ?>css/font-awesome.min.css"/>
     <link rel="stylesheet" href="<?php echo assets_url()?>apps/metisMenu/dist/metisMenu.min.css"/>
+    <link rel="stylesheet" href="<?php echo assets_url()?>apps/BootstrapFormHelpers/dist/css/bootstrap-formhelpers.min.css"/>
     <link rel="stylesheet" href="<?php echo assets_url(); ?>css/admin.css"/>
 
     <?php
@@ -67,17 +68,32 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html">ClipSnippet</a>
+            <a class="navbar-brand" href="dashboard">ClipSnippet</a>
         </div>
         <!-- /.navbar-header -->
+
+        <ul class="nav navbar-top-links navbar-left"> <!-- header left -->
+        <?php
+        if($access != NULL && $access == 1){
+            ?>
+            <li>
+                <a href="dashboard"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+            </li>
+            <li>
+                <a href="categories"><i class="fa fa-gear fa-fw"></i> Snippets Categories</a>
+            </li>
+            <?php
+        }
+        ?>
+        </ul>
 
         <ul class="nav navbar-top-links navbar-right">
             <li class="dropdown">
 
                 <?php
-                $display_lang = '<div class="bfh-selectbox bfh-languages" data-language="es_CR" data-available="en_US,es_CR" data-flags="true"></div>';
+                $display_lang = '<div class="bfh-selectbox bfh-languages" data-language="es_CR" data-available="en_US,es_CR" data-flags="true" data-blank="false"></div>';
                 if($lang == 'english')
-                    $display_lang = '<div class="bfh-selectbox bfh-languages" data-language="en_US" data-available="es_CR,en_US" data-flags="true"></div>';
+                    $display_lang = '<div class="bfh-selectbox bfh-languages" data-language="en_US" data-available="es_CR,en_US" data-flags="true" data-blank="false"></div>';
 
                 echo $display_lang;
                 ?>
@@ -123,4 +139,6 @@
             <!-- /.dropdown -->
         </ul>
         <!-- /.navbar-top-links -->
+
+        <?php echo (empty($sidebar))?"":$sidebar; ?>
     </nav>

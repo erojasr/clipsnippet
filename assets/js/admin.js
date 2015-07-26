@@ -1,8 +1,32 @@
 $(function() {
 
     $('#side-menu').metisMenu();
+    language();
 
 });
+
+function language(){
+
+    $(".bfh-selectbox").on('change.bfhselectbox', function(){
+        console.log($(this).val());
+
+        var lang = $(this).val();
+
+        $.ajax({
+            'url':'LangSwitch/switch_language/'+lang,
+            dataType:'json',
+            success:function(data){
+                console.log(data);
+                if(data.success == true){
+                    location.reload();
+                }
+
+            }
+        })
+
+    });
+
+}
 
 //Loads the correct sidebar on window load,
 //collapses the sidebar on window resize.

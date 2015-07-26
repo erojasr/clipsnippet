@@ -65,7 +65,7 @@
 
                                                 <div class="form-group">
                                                     <div class="col-sm-offset-2 col-sm-7">
-                                                        <button class="btn btn-primary btn-block" type="submit">Login</button>
+                                                        <button class="btn btn-primary btn-block" type="submit"><?php echo lang('btn_form_login'); ?></button>
                                                     </div>
                                                 </div>
                                             </form>
@@ -81,7 +81,7 @@
 
                                             <!-- Text input-->
                                             <div class="form-group">
-                                                <label class="col-sm-3 control-label" for="textinput"><?php echo $name; ?></label>
+                                                <label class="col-sm-3 control-label" for="textinput"><?php echo lang('firstname'); ?></label>
                                                 <div class="col-sm-9" id="name-group">
                                                     <input type="text" placeholder="Nombre" name="name" id="name" class="form-control">
                                                 </div>
@@ -89,7 +89,7 @@
 
                                             <!-- Text input-->
                                             <div class="form-group">
-                                                <label class="col-sm-3 control-label" for="textinput">Apellidos</label>
+                                                <label class="col-sm-3 control-label" for="textinput"><?php echo lang('lastname'); ?></label>
                                                 <div class="col-sm-9" id="lastname-group">
                                                     <input type="text" placeholder="Apellidos" name="lastname" id="lastname" class="form-control">
                                                 </div>
@@ -97,7 +97,7 @@
 
                                             <!-- Text input-->
                                             <div class="form-group">
-                                                <label class="col-sm-3 control-label" for="textinput">Email</label>
+                                                <label class="col-sm-3 control-label" for="textinput"><?php echo lang('email'); ?></label>
                                                 <div class="col-sm-9" id="email-group">
                                                     <input type="text" placeholder="Email" name="email" id="email" class="form-control">
                                                 </div>
@@ -105,20 +105,22 @@
 
                                             <!-- Text input-->
                                             <div class="form-group">
-                                                <label class="col-sm-3 control-label" for="textinput">Telefono</label>
+                                                <label class="col-sm-3 control-label" for="textinput"><?php echo lang('phone'); ?></label>
                                                 <div class="col-sm-3" id="telephone-group">
-                                                    <input type="text" placeholder="Telefono" name="telephone" id="telephone" class="form-control">
+                                                    <input type="text" placeholder="Telefono" name="telephone" id="telephone" class="form-control bfh-phone" data-country="CR">
                                                 </div>
 
-                                                <label class="col-sm-3 control-label" for="textinput">Fecha Nacimiento</label>
+                                                <label class="col-sm-3 control-label" for="textinput"><?php echo lang('born'); ?></label>
                                                 <div class="col-sm-3" id="born-group">
-                                                    <input type="text" placeholder="Fecha nacimiento" name="born" id="born" class="form-control">
+                                                    <div class="bfh-datepicker" data-min="01/15/1930" data-max="today" data-close="false" data-name="born">
+                                                        <input type="text" placeholder="Fecha nacimiento" name="born" id="born" class="form-control">
+                                                    </div>
                                                 </div>
                                             </div>
 
                                             <!-- Text input-->
                                             <div class="form-group">
-                                                <label class="col-sm-3 control-label" for="textinput">Constraseña</label>
+                                                <label class="col-sm-3 control-label" for="textinput"><?php echo lang('password'); ?></label>
                                                 <div class="col-sm-9" id="password-group">
                                                     <input type="password" placeholder="Contraseña" name="password" id="password" class="form-control">
                                                 </div>
@@ -126,14 +128,14 @@
 
                                             <!-- Text input-->
                                             <div class="form-group">
-                                                <label class="col-sm-3 control-label" for="textinput">Repetir Constraseña</label>
+                                                <label class="col-sm-3 control-label" for="textinput"><?php echo lang('repassword'); ?></label>
                                                 <div class="col-sm-9" id="repassword-group">
                                                     <input type="password" placeholder="Repetir contraseña" name="repassword" id="repassword" class="form-control">
                                                 </div>
                                             </div>
 
                                             <div class="form-group">
-                                                <label class="col-sm-6 control-label">Ingrese el codigo de verificación de la imagen</label>
+                                                <label class="col-sm-6 control-label"><?php echo lang('captcha'); ?></label>
                                                 <div class="col-sm-3" id="code-group">
                                                     <input type="text" placeholder="Ingrese el codigo" name="code" id="code" class="form-control">
                                                 </div>
@@ -146,8 +148,8 @@
                                             <div class="form-group">
                                                 <div class="col-sm-offset-2 col-sm-10">
                                                     <div class="pull-right">
-                                                        <button type="submit" class="btn btn-default">Cancel</button>
-                                                        <button type="submit" class="btn btn-primary">Save</button>
+                                                        <button type="submit" class="btn btn-default"><?php echo lang('btn_form_cancel'); ?></button>
+                                                        <button type="submit" class="btn btn-primary"><?php echo lang('btn_form_new_account'); ?></button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -163,7 +165,7 @@
 
                                             <!-- Text input-->
                                             <div class="form-group">
-                                                <label class="col-sm-3 control-label" for="textinput">Correo Registrado</label>
+                                                <label class="col-sm-3 control-label" for="textinput"><?php echo lang('register_email'); ?></label>
                                                 <div class="col-sm-9">
                                                     <div class="input-group">
                                                         <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
@@ -175,8 +177,7 @@
                                             <div class="form-group">
                                                 <div class="col-sm-offset-2 col-sm-10">
                                                     <div class="pull-right">
-                                                        <button type="submit" class="btn btn-default">Cancel</button>
-                                                        <button type="submit" class="btn btn-primary">Save</button>
+                                                        <button type="submit" class="btn btn-primary"><?php echo lang('btn_form_recovery'); ?></button>
                                                     </div>
                                                 </div>
                                             </div>

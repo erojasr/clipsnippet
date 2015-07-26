@@ -30,10 +30,15 @@ class MY_Loader extends CI_Loader {
         $CI =& get_instance();
         $vars['lang'] = $CI->session->userdata('site_lang');
 
-        $vars['is_logged'] = true;
-        if($CI->session->userdata('id') == NULL){
+
+        if($CI->session->userdata('id') != NULL){
+            $vars['is_logged'] = true;
+            $vars['sidebar'] = $this->view('templates/sidebar', $vars, true);
+        }
+        else{
             $vars['is_logged'] = false;
         }
+        $vars['access'] = $CI->session->userdata('access');
         $vars['user'] = $CI->session->userdata('username');
 
 

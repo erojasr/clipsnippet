@@ -89,5 +89,9 @@ $route['default_controller'] = 'Controller_index';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
+$route['categories'] = 'admin/SnippetCategories/index';
+$route['categories/store'] = 'admin/SnippetCategories/store';
+$route['categories/load'] = 'admin/SnippetCategories/load';
+
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

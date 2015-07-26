@@ -62,13 +62,16 @@ class User_model extends CI_Model{
 
         $password = password_hash($data['password'], PASSWORD_DEFAULT);
 
+        $date = DateTime::createFromFormat('d/m/Y', $data['born']);
+
+
         $params = array(
             'access' => 3, // level access always guest user
             'name' => $this->db->escape_str($data['name']),
             'lastname' => $this->db->escape_str($data['lastname']),
             'email' => $this->db->escape_str($data['email']),
             'phone' => $this->db->escape_str($data['phone']),
-            'date_born' => $this->db->escape_str($data['born']),
+            'date_born' => $this->db->escape_str($date->format('Y-m-d')),
             'password' => $password,
             'is_active' => 1, // user always is active
             'date_created' => date('Y-m-d H:i:s')
