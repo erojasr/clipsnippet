@@ -19,10 +19,28 @@
         <div class="col-lg-12">
             <div class="panel panel-default">
                 <div class="panel-heading clearfix">
-                    <h4 class="panel-title pull-left">Categorias</h4>
+                    <h4 class="panel-title pull-left">
+                    <?php  
+                    echo (isset($title_category) != FALSE)?'Categoria '.$title_category:"Categorias";
+                    ?>
+                    </h4>
                     <div class="pull-right">
                         <div class="btn-group">
-                            <button class="btn btn-primary" data-toggle="modal" data-target="#modal-categories">Nueva Categoria</button>
+                            <?php  
+                            if(isset($sub_add) && $sub_add != FALSE)
+                            {
+                                ?>
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#modal-categories">Nueva Subcategoria</button>
+                                <?php
+                            }
+                            else
+                            {
+                                ?>
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#modal-categories">Nueva Categoria</button>
+                                <?php
+                            }
+                            ?>
+                            
                         </div>
                     </div>
                 </div>
@@ -30,12 +48,13 @@
                     <?php
                     //var_dump($list_categories);
                     ?>
-                    <table class="table table-bordered" id="example1">
+                    <table class="table datatable table-striped table-bordered table-editable" id="example1">
                         <thead>
                         <tr>
                             <th>#</th>
                             <th>Categoria</th>
                             <th>Status</th>
+                            <th></th>
                         </tr>
                         </thead>
                         <tbody>
@@ -64,7 +83,7 @@
                 <h4 class="modal-title" id="myModalLabel">Nueva Categoria</h4>
             </div>
             <div class="modal-body">
-                <form id="new-cat" action="categories/store" method="post">
+                <form id="new-cat">
                     <div class="form-group">
                         <input type="text" class="form-control" id="category" name="category" placeholder="Nueva Categoria">
                     </div>

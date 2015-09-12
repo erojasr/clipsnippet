@@ -92,6 +92,8 @@ $route['translate_uri_dashes'] = FALSE;
 $route['categories'] = 'admin/SnippetCategories/index';
 $route['categories/store'] = 'admin/SnippetCategories/store';
 $route['categories/load'] = 'admin/SnippetCategories/load';
+$route['categories/(:num)'] = 'admin/SnippetCategories/index/$1';
+//$route['subcategories/(:num)'] = 'admin/SnippetCategories/index/$1';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
