@@ -1,7 +1,7 @@
 <?php
 
 
-class ModelCategories extends CI_Model{
+class Model_categories extends CI_Model{
 
     public function __construct(){
         parent::__construct();
@@ -59,11 +59,7 @@ class ModelCategories extends CI_Model{
 
         if($query->num_rows() > 0){
             $categories = $query->result();
-
-
             $response = $categories;
-
-
         }
         else{
             $response = false;
@@ -93,6 +89,95 @@ class ModelCategories extends CI_Model{
      */
     public function returnLastInsertRow(){
 
+    }
+
+    /**
+     * Show the childs associated on parent
+     * @return [type] [description]
+     */
+    public function checkParentChilds($category)
+    {
+        try{
+            $id = $this->db->escape_str($category);
+            $sql = "SELECT COUNT(*) AS total
+                    FROM 
+                        snippet_categories 
+                    WHERE 
+                    parent = ".$id;
+            $query = $this->db->query($sql);
+            $response = FALSE;
+
+            if($query->row(0)->total > 0)
+            {
+                $response = TRUE;
+            }
+
+            return $response;
+        }
+        catch(Exception $e){
+            log_message('error', 'Error get parent childs');
+        }
+    }
+
+    public function deleteCategory($category)
+    {
+        try{
+            $id = $this->db->escape_str($category);
+            $sql = "DELETE FROM snippet_categories WHERE id=".$id;
+
+            $response = FALSE;
+            if($this->db->query($sql))
+            {
+                $response = TRUE;
+            }
+
+            return $response;
+        }
+        catch(Exception $e)
+        {
+            log_message('error', $e->getMessage());
+        }
+    }
+
+    /**
+     * Metodo para obtener el menu de los snippets
+     * @return [type] [description]
+     */
+    public function makeMenu()
+    {
+        try{
+            $sql = "CALL CAT_VIEW_MENU()";
+            $response = FALSE;
+
+            $query = $this->db->query($sql);
+
+            if($query->num_rows() > 0)
+            {
+                $response = $this->createMenu($query->result_array());
+            }
+        //log_message('error', print_r($response), true);
+        return $response;
+        }
+        catch(Exception $e)
+        {
+            log_message('error', $e->getMessage());
+        }
+    }
+
+    public function createMenu($menu,$parent="", $indent="")
+    {
+
+        $return = array();
+        foreach($menu as $key => $val) 
+        {
+            if($val["parent"] == $parent) {
+                $return[] = $indent.$val["categories"];
+                $return = array_merge($return, createMenu($array, $val["categories"], $indent."&nbsp;&nbsp;&nbsp;"));
+            }
+        }
+            var_dump($return);
+            exit;
+        return $return;
     }
 
 }

@@ -12,6 +12,10 @@
                 </div>
                 <!-- /input-group -->
             </li>
+            <?php  
+            var_dump($menu);
+
+            ?>
             <li>
                 <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> PHP</a>
             </li>

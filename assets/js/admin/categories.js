@@ -87,8 +87,10 @@ function addCategory(){
 function loadCategories(){
 
     var cid = '';
+    var showButton = '';
     if(urlGetParameters != null){
         var cid = {cid:urlGetParameters};
+        showButton = 'style="display:none;"';
     }
     $("#example1 tbody tr").remove();
     $.ajax({
@@ -99,7 +101,7 @@ function loadCategories(){
         success: function(data){
             var prepare = "";
             $.each(data, function(i, item){
-                prepare += '<tr><td scope="row">'+item.id+'</td><td>'+item.category_name+'</td><td>'+item.status+'</td><td style="white-space: nowrap; width: 1%;"><a href="categories/'+item.id+'" class="btn btn-sm btn-info">Sub-categorias</a></td></tr>';
+                prepare += '<tr><td scope="row">'+item.id+'</td><td>'+item.category_name+'</td><td>'+item.status+'</td><td style="white-space: nowrap; width: 1%;"><a href="categories/'+item.id+'" class="btn btn-sm btn-info" '+showButton+'>Sub-categorias</a></td></tr>';
             });
 
             $("#example1 tbody").append(prepare);

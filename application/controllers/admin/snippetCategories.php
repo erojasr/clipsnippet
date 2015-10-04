@@ -84,7 +84,37 @@ class SnippetCategories extends MY_Controller{
                 echo json_encode($params);
                 break;
             case 'delete':
-                echo json_encode('delete');
+                $id = $this->input->post('id');
+                //echo json_encode('retorno '.$id);
+
+                // ya tenemos el id
+                // verificar si ese id es padre o child
+                // si es child delete
+                // si es padre debemos verificar primero que no tengo childs asociados
+                // si no tiene childs asociados delete de una
+                // 
+                
+                //var_dump($this->ModelCategories->checkParentChilds($id));
+                //exit;
+
+                if($this->ModelCategories->checkParentChilds($id) == FALSE)
+                {
+                    // si no tiene hijos delete
+                    if($this->ModelCategories->deleteCategory($id))
+                    {
+                        $params['msg'] = 'Se ha eliminado';
+                        $params['success'] = true;
+                    }
+                }
+                else
+                {
+                    // tiene hijos show error
+                    $params['msg'] = 'No puedes eliminar esta categoria, porque tiene subcategorias';
+                    $params['success'] = false;
+                }
+                
+                echo json_encode($params);
+
                 break;
             default:
                 $cid = $this->input->get('cid');

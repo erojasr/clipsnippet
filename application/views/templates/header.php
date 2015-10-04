@@ -77,10 +77,10 @@
         if($access != NULL && $access == 1){
             ?>
             <li>
-                <a href="dashboard"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                <a href="http://clipsnippet.com/dashboard"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
             </li>
             <li>
-                <a href="categories"><i class="fa fa-gear fa-fw"></i> Snippets Categories</a>
+                <a href="http://clipsnippet.com/categories"><i class="fa fa-gear fa-fw"></i> Snippets Categories</a>
             </li>
             <?php
         }

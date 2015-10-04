@@ -8,10 +8,12 @@
 class MY_Loader extends CI_Loader {
 
     public $content;
+    public $menu;
 
     public function __construct()
     {
         parent::__construct();
+        
     }
 
     /**
@@ -28,11 +30,13 @@ class MY_Loader extends CI_Loader {
 
         // check the user session
         $CI =& get_instance();
+        $CI->load->model('admin/Model_categories');
         $vars['lang'] = $CI->session->userdata('site_lang');
 
 
         if($CI->session->userdata('id') != NULL){
             $vars['is_logged'] = true;
+            $vars['menu'] = $CI->Model_categories->makeMenu();
             $vars['sidebar'] = $this->view('templates/sidebar', $vars, true);
         }
         else{
